@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+
+# Word submission files and Office lock files
+*Submission*.docx
+~$*.doc*
