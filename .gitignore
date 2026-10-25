@@ -10,3 +10,5 @@ venv/
 # Word submission files and Office lock files
 *Submission*.docx
 ~$*.doc*
+*.pdf
+*.claude

@@ -1,0 +1,7 @@
+services:
+  chatbot:
+    build: .
+    image: assignment3-chatbot
+    # Keep stdin open and allocate a TTY so the terminal client is interactive.
+    stdin_open: true
+    tty: true

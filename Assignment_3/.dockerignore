@@ -1,0 +1,12 @@
+.claude/
+output/
+.devcontainer/
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+*.png
+*.md
+*.Md
+*.docx
+*.pdf

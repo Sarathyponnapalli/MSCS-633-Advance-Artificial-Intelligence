@@ -1,0 +1,17 @@
+{
+  // GitHub Codespaces environment for the Assignment 3 chatbot.
+  // Reuses the project's Dockerfile, so the bot is already trained when the
+  // codespace opens. Chat with: python /app/manage.py chat
+  "name": "Assignment 3 chatbot",
+  "build": {
+    "dockerfile": "../../Assignment_3/Dockerfile",
+    "context": "../../Assignment_3"
+  },
+  "remoteUser": "appuser",
+  "postAttachCommand": "echo 'Start the chatbot with: python /app/manage.py chat'",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["Assignment_3/README.md"]
+    }
+  }
+}

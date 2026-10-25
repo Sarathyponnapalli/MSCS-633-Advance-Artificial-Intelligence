@@ -1,0 +1,23 @@
+Chatting with Assignment3Bot. Type 'exit' or 'quit' to stop.
+user: Good morning! How are you doing?
+bot: I am doing very well, thank you for asking.
+user: You're welcome.
+bot: Do you like hats?
+user: yes
+bot: Me too! A good hat can finish off any outfit. What kind do you wear?
+user: Black ones
+bot: Black hats go with everything. Classic choice!
+user: What is your name?
+bot: I am Assignment3Bot, a simple Q&A chatbot.
+user: What is 7 times 6?
+bot: 7 times 6 = 42
+user: Tell me a joke
+bot: Did you hear the one about the mountain goats in the andes? It was "ba a a a a a d".
+user: What can you do?
+bot: I can chat, tell jokes, and answer simple questions, including math like 'What is 7 times 6?'.
+user: Do you like sports?
+bot: I enjoy watching soccer and basketball. Do you play any sports?
+user: Goodbye
+bot: Goodbye! Have a great day.
+user: exit
+bot: Goodbye!
