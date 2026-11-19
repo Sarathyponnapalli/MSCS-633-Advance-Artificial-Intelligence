@@ -1,0 +1,39 @@
+Loaded 284,807 transactions, 492 fraudulent (0.173%), 29 features.
+Train: 199,364 rows | Test: 85,443 rows (148 frauds held out for evaluation)
+
+Training AutoEncoder for 20 epochs (contamination = 0.00173) ...
+Epoch 1/20, loss=0.7778, time=3.36s
+Epoch 2/20, loss=0.6319, time=4.85s
+Epoch 3/20, loss=0.5857, time=4.60s
+Epoch 4/20, loss=0.5546, time=2.66s
+Epoch 5/20, loss=0.5359, time=2.92s
+Epoch 6/20, loss=0.5215, time=3.00s
+Epoch 7/20, loss=0.5129, time=4.81s
+Epoch 8/20, loss=0.5014, time=2.58s
+Epoch 9/20, loss=0.4928, time=2.82s
+Epoch 10/20, loss=0.4883, time=2.97s
+Epoch 11/20, loss=0.4840, time=2.52s
+Epoch 12/20, loss=0.4788, time=3.18s
+Epoch 13/20, loss=0.4724, time=2.93s
+Epoch 14/20, loss=0.4660, time=2.36s
+Epoch 15/20, loss=0.4660, time=2.90s
+Epoch 16/20, loss=0.4597, time=2.07s
+Epoch 17/20, loss=0.4579, time=2.25s
+Epoch 18/20, loss=0.4543, time=2.95s
+Epoch 19/20, loss=0.4523, time=2.60s
+Epoch 20/20, loss=0.4508, time=2.36s
+
+=== Results on the held-out test set ===
+ROC-AUC                    0.9434
+Average precision (PR-AUC) 0.1802
+Precision @ n              0.2500
+Threshold                  9.6714
+Precision (fraud)          0.2569
+Recall (fraud)             0.2500
+F1 (fraud)                 0.2534
+
+Confusion matrix      predicted legit  predicted fraud
+  actual legit                 85,188              107
+  actual fraud                    111               37
+
+Saved metrics and plots to output/ in 67s.

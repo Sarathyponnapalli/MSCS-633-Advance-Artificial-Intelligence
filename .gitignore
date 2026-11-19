@@ -4,6 +4,11 @@ __pycache__/
 .venv/
 venv/
 
+# Datasets (Assignment 4 downloads creditcard.csv at run time)
+Assignment_4/data/
+*.csv
+*.part
+
 # Editors
 .vscode/
 

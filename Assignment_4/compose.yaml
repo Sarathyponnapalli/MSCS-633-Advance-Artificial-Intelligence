@@ -1,0 +1,8 @@
+services:
+  fraud-detection:
+    build: .
+    image: assignment4-fraud-detection
+    # Keep the downloaded dataset and the results on the host between runs.
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output

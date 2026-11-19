@@ -1,0 +1,12 @@
+.claude/
+data/
+output/
+.venv/
+__pycache__/
+*.pyc
+*.csv
+*.png
+*.md
+*.Md
+*.docx
+*.pdf

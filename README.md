@@ -8,6 +8,7 @@ Coursework for MSCS-633-M20, Advanced Artificial Intelligence, at the University
 | --- | --- | --- |
 | Hands-On Assignment 2 | AI QR Code Generator (Python, `qrcode`) | [Assignment_2](Assignment_2/) |
 | Hands-On Assignment 3 | Simple Q&A Chatbot (Django, ChatterBot, Docker) | [Assignment_3](Assignment_3/) |
+| Hands-On Assignment 4 | Fraud Detection with an Unsupervised AutoEncoder (PyOD, PyTorch, Docker) | [Assignment_4](Assignment_4/) |
 
 ## Repository layout
 
@@ -30,6 +31,14 @@ Coursework for MSCS-633-M20, Advanced Artificial Intelligence, at the University
 │   ├── Dockerfile              # container build
 │   ├── compose.yaml            # container run config
 │   └── output/sample_chat.txt  # sample output
+├── Assignment_4/
+│   ├── README.md               # setup, usage and results
+│   ├── Instructions.Md         # assignment brief
+│   ├── fraud_detection.py      # source code
+│   ├── requirements.txt        # dependency manifest
+│   ├── Dockerfile              # container build
+│   ├── compose.yaml            # container run config
+│   └── output/                 # run log, metrics and plots
 ├── .github/workflows/
 │   └── assignment3-chatbot.yml # builds, demos and publishes the Assignment 3 chatbot
 └── .devcontainer/
